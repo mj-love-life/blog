@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1561816221 source:c:\users\horseplus\desktop\随机森林\rf c++\myrandomforest\utils.cpp
+	"utils.h"
+
+1561817058 source:c:\users\horseplus\desktop\随机森林\rf c++\myrandomforest\main.cpp
+	<stdio.h>
+	<vector>
+	"utils.h"
+	"CART.h"
+	"MyRandomForest.h"
+
+1561811378 c:\users\horseplus\desktop\随机森林\rf c++\myrandomforest\utils.h
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+	<sstream>
+	<math.h>
+	<algorithm>
+	<windows.h>
+
+1561799599 source:c:\users\horseplus\desktop\随机森林\rf c++\myrandomforest\cart.cpp
+	"CART.h"
+
+1561816784 c:\users\horseplus\desktop\随机森林\rf c++\myrandomforest\cart.h
+	<iostream>
+	<vector>
+	"utils.h"
+
+1561822003 source:c:\users\horseplus\desktop\随机森林\rf c++\myrandomforest\myrandomforest.cpp
+	"MyRandomForest.h"
+
+1561816925 c:\users\horseplus\desktop\随机森林\rf c++\myrandomforest\myrandomforest.h
+	<vector>
+	<algorithm>
+	<tuple>
+	<omp.h>
+	"utils.h"
+	"CART.h"
+	<math.h>
+	<float.h>
+
+1561799599 source:c:\users\horseplus\desktop\随机森林\rfc++\myrandomforest\cart.cpp
+	"CART.h"
+
+1561825682 c:\users\horseplus\desktop\随机森林\rfc++\myrandomforest\cart.h
+	<iostream>
+	<vector>
+	"utils.h"
+
+1561811378 c:\users\horseplus\desktop\随机森林\rfc++\myrandomforest\utils.h
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+	<sstream>
+	<math.h>
+	<algorithm>
+	<windows.h>
+
+1561826631 source:c:\users\horseplus\desktop\随机森林\rfc++\myrandomforest\main.cpp
+	<stdio.h>
+	<vector>
+	"utils.h"
+	"CART.h"
+	"MyRandomForest.h"
+
+1561826340 c:\users\horseplus\desktop\随机森林\rfc++\myrandomforest\myrandomforest.h
+	<vector>
+	<algorithm>
+	<tuple>
+	<omp.h>
+	"utils.h"
+	"CART.h"
+	<math.h>
+	<float.h>
+
+1561826783 source:c:\users\horseplus\desktop\随机森林\rfc++\myrandomforest\myrandomforest.cpp
+	"MyRandomForest.h"
+
+1561825051 source:c:\users\horseplus\desktop\随机森林\rfc++\myrandomforest\utils.cpp
+	"utils.h"
+
