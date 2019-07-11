@@ -28,7 +28,9 @@ class MyTree:
         '''
         self.feature_sample = np.random.choice(n , int(math.sqrt(n)), replace=False)
         self.data = data[row_sample, :]
-        self.label = label[row_sample, :]
+        print('-' * 100)
+        print('测试样例是:', row_sample)
+        self.label = label[row_sample]
         # 随机特征的选择，这里的特征选择是无放回的选择
         self.data = self.data[:, self.feature_sample]
         # t1 = time.time()

@@ -44,16 +44,16 @@ void shuffle(vector<int> &cards){
 Sample deal_train_line(const string &line, int feature_num){
     stringstream ss(line);
     Sample sample;
-    sample.x.resize(feature_num);
+    sample.fea.resize(feature_num);
     string str;
     int index = 0;
     while (getline(ss, str, ',')){
         istringstream ss_temp(str);
         if (index <= 12) {
-            ss_temp >> sample.x[index];
+            ss_temp >> sample.fea[index];
         }
         else{
-            ss_temp >> sample.y;
+            ss_temp >> sample.label;
         }
         index++;
     }
@@ -136,13 +136,13 @@ float calculate_variance(const vector<Sample*> &samples) {
 	int n = samples.size();
     float sum = 0;
 	for (const auto &sample: samples){
-        sum += sample->y;
+        sum += sample->label;
 	}
 //	printf("%f\n", sum);
 	float mean = (float) sum / n;
 	float variance = 0.0;
     for (const auto &sample: samples){
-        variance += pow(sample->y, 2);
+        variance += pow(sample->label, 2);
     }
 //    printf("%f\n", mean);
 //    printf("%f\n", variance);

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<BrowseTracker_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="main.cpp" open="1" top="1" tabpos="3">
+		<Cursor position="1114" topLine="0" />
+		<BrowseMarks positions="59,732" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="utils.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="543" topLine="6" />
+		<BrowseMarks positions="470,762,3317,3721" />
+	</File>
+	<File name="utils.h" open="1" top="0" tabpos="2">
+		<Cursor position="236" topLine="0" />
+	</File>
+	<File name="CART.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="17" topLine="0" />
+	</File>
+	<File name="CART.h" open="0" top="0" tabpos="7">
+		<Cursor position="944" topLine="0" />
+		<BrowseMarks positions="434,1006" />
+	</File>
+	<File name="MyRandomForest.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="6164" topLine="157" />
+		<BrowseMarks positions="3980,4025,4429,5490,5847" />
+	</File>
+	<File name="MyRandomForest.h" open="1" top="0" tabpos="5">
+		<Cursor position="902" topLine="40" />
+		<BrowseMarks positions="596" />
+		<Book_Marks positions="" />
+	</File>
+</BrowseTracker_layout_file>

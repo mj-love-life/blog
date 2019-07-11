@@ -87,3 +87,72 @@
 1561825051 source:c:\users\horseplus\desktop\随机森林\rfc++\myrandomforest\utils.cpp
 	"utils.h"
 
+1562822212 source:e:\大学\大三下学期\我的\数据挖掘\pro3\随机森林\rfc++\myrandomforest\cart.cpp
+
+1562822209 e:\大学\大三下学期\我的\数据挖掘\pro3\随机森林\rfc++\myrandomforest\cart.h
+
+1561829827 e:\大学\大三下学期\我的\数据挖掘\pro3\随机森林\rfc++\myrandomforest\utils.h
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+	<sstream>
+	<math.h>
+	<algorithm>
+	<windows.h>
+
+1562820007 source:e:\大学\大三下学期\我的\数据挖掘\pro3\随机森林\rfc++\myrandomforest\utils.cpp
+	"utils.h"
+
+1562822714 source:e:\大学\大三下学期\我的\数据挖掘\pro3\随机森林\rfc++\myrandomforest\main.cpp
+	<stdio.h>
+	<vector>
+	"utils.h"
+	"MyRandomForest.h"
+
+1562822394 e:\大学\大三下学期\我的\数据挖掘\pro3\随机森林\rfc++\myrandomforest\myrandomforest.h
+	<vector>
+	<algorithm>
+	<tuple>
+	<omp.h>
+	"utils.h"
+	<math.h>
+	<float.h>
+
+1562821788 source:e:\大学\大三下学期\我的\数据挖掘\pro3\随机森林\rfc++\myrandomforest\myrandomforest.cpp
+	"MyRandomForest.h"
+
+1562822714 source:c:\users\horseplus\desktop\16340166_马佳\源代码\随机森林的实现\c++版本\myrandomforest\main.cpp
+	<stdio.h>
+	<vector>
+	"utils.h"
+	"MyRandomForest.h"
+
+1561829827 c:\users\horseplus\desktop\16340166_马佳\源代码\随机森林的实现\c++版本\myrandomforest\utils.h
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+	<sstream>
+	<math.h>
+	<algorithm>
+	<windows.h>
+
+1562822394 c:\users\horseplus\desktop\16340166_马佳\源代码\随机森林的实现\c++版本\myrandomforest\myrandomforest.h
+	<vector>
+	<algorithm>
+	<tuple>
+	<omp.h>
+	"utils.h"
+	<math.h>
+	<float.h>
+
+1562820007 source:c:\users\horseplus\desktop\16340166_马佳\源代码\随机森林的实现\c++版本\myrandomforest\utils.cpp
+	"utils.h"
+

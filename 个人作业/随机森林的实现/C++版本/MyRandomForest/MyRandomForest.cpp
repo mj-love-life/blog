@@ -185,19 +185,26 @@ vector<float> RandomForest::predict(const vector< vector<float> > test){
         }
         pred.push_back(p/this->n_estimators);
 	}
-	for(float i: pred){
-        cout << i << " " ;
-	}
 	return pred;
 }
 
 // ÆÀ·Ö
 float RandomForest::score(const vector<float> &y_pred, vector<float> y_true){
     float cal = 0;
-    for(int i = 0; i< y_pred.size(); i++){
-        cal += pow(y_pred[i] - y_true[i], 2);
+    float pred_double = 0;
+    float pred_2 = 0;
+    float true_double = 0;
+    float true_2 = 0;
+    int len = y_pred.size();
+    for(int i = 0; i< len; i++){
+        pred_double += pow(y_pred[i], 2);
+        pred_2 += y_pred[i];
+        true_double += pow(y_true[i], 2);
+        true_2 += y_true[i];
     }
-    cout << cal << endl;
+    float var_pred = pred_double / len - pow(pred_2 / len, 2);
+    float var_true = true_double / len - pow(true_2 / len, 2);
+    cal = 1 - (var_pred / var_true);
     return cal;
 }
 
